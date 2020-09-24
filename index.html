@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="icon" href="icon.png" type="image/png" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>All About Me</title>
+  </head>
+
+  <body>
+    <div class="loaderbg">
+      <div class="loader"></div>
+    </div>
+
+    <section>
+      <!--navigation------->
+      <nav>
+        <!---logo----->
+        <a href="#" class="logo" data-aos="fade-right" data-aos-duration="5000">
+          <img src="logo.jpg" alt="">
+        </a>
+        <!--menu----->
+        <ul data-aos="fade-left" data-aos-duration="5000">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact Me</a></li>
+        </ul>
+      </nav>
+      <!---text------>
+      <div class="text-container" data-aos="fade-up" data-aos-duration="1100">
+        <p>Hello There, Myself</p>
+        <p>K. Venkat Gowtham</p>
+        <p>Web Developer & Web Designer</p>
+      </div>
+    </section>
+    <!---about-section----->
+    <div class="about-container" data-aos="flip-up" data-aos-duration="1300">
+      <!---img----->
+      <img src="g1.jpg" data-aos="flip-left" data-aos-duration="1400" />
+      <!---about text---->
+      <div class="about-text">
+        <p data-aos="fade-down" data-aos-duration="1200">About Me</p>
+        <p data-aos="fade-left" data-aos-duration="800">
+          I am a Developer & Designer. If You have any project or if you want a
+          website for your business contact me. I make website as soon as
+          possible. You really like my work, i will makeover the website until
+          your satisfaction.
+        </p>
+
+        <!---Button----->
+        <button data-aos="fade-left" data-aos-duration="1000">Hire-Me</button>
+        <button data-aos="fade-left" data-aos-duration="1000">
+          Download Resume
+        </button>
+      </div>
+    </div>
+
+    <!---Services------>
+
+    <div class="services" data-aos="fade-right" data-aos-duration="1000">
+      <!---text--------->
+
+      <div class="services-text">
+        <p data-aos="fade-left" data-aos-duration="1400">My Services</p>
+      </div>
+      <!---box----------->
+      <div class="box-container">
+        <!---1----->
+        <div class="box-1" data-aos="flip-left" data-aos-duration="1000">
+          <span>1</span>
+          <p class="heading" data-aos="fade-left" data-aos-duration="1000">
+            Web Design
+          </p>
+          <p class="details" data-aos="fade-up" data-aos-duration="1000">
+            Designing the web page using WordPress, Canva and some more famous
+            websites including the all multimedia options. it has no expiration
+            until you delete it.
+          </p>
+          <button data-aos="fade-down" data-aos-duration="1000">
+            <a href="webdesign.html"> Read More </a>
+          </button>
+        </div>
+        <!----2------->
+        <div class="box-2" data-aos="flip-left" data-aos-duration="1200">
+          <span>2</span>
+          <p class="heading" data-aos="fade-left" data-aos-duration="1200">
+            Web Development
+          </p>
+          <p class="details" data-aos="fade-up" data-aos-duration="1200">
+            I develop the website by using the Front-End languages like HTML5,
+            CSS3, JavaScript. Back-End with Python, Ruby, Angular JS.
+          </p>
+          <button data-aos="fade-down" data-aos-duration="1200">
+            <a href="webdev.html"> Read More </a>
+          </button>
+        </div>
+        <!----3-------->
+        <div class="box-3" data-aos="flip-left" data-aos-duration="1400">
+          <span>3</span>
+          <p class="heading" data-aos="fade-left" data-aos-duration="1400">
+            Other Services
+          </p>
+          <p class="details" data-aos="fade-up" data-aos-duration="1400">
+            I offer you more services like MS Office, C, C++, Java, Database
+            System, Data Analytics and much more at low prices.
+          </p>
+          <button data-aos="fade-down" data-aos-duration="1400">
+            Read More
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!---Contact Me------>
+    <div class="contact-me" data-aos="flip-up" data-aos-duration="1000">
+      <p data-aos="fade-up" data-aos-duration="1200">
+        For More Details or Drop Your Quires
+      </p>
+      <button data-aos="fade-up" data-aos-duration="1200">Contact Me</button>
+    </div>
+    <footer>
+        <p class="follow">Copyrights To Gowtham Kunjeti</p>
+    </footer>
+
+
+
+    <div class="socialicons" data-aos="fade-left" data-aos-duration="1000">
+      <a href="https://www.facebook.com/profile.php?id=100008467236885"
+        ><img src="face.png"
+      /></a>
+      <a href="https://www.instagram.com/gowthamsayzz/"
+        ><img src="insta.png"
+      /></a>
+      <a href="https://www.linkedin.com/in/gk7731/"><img src="link.png" /></a>
+      <a href="https://twitter.com/GKunjeti"><img src="tweet.png" /></a>
+    </div>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+      setTimeout(function(){
+        $('.loaderbg').fadeToggle();
+      },4000);
+    </script>
+
+  </body>
+</html>
